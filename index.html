@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portofolio | Ejak</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+
+    <!-- MyJS -->
+    <script src="js/script.js"></script>
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -42,10 +50,10 @@
     <!-- End of Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center text-light">
       <img src="images/person.jpeg" alt="Reza A" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Muhammad Reza Arbani</h1>
-      <p class="lead">Student | Web Developer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -64,15 +72,20 @@
 
     <!-- About Me -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-in">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit, deserunt amet velit expedita sed perferendis veniam alias minus. Reiciendis.</div>
-          <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nulla enim quam asperiores molestiae architecto commodi eos odit, unde veritatis quidem, consectetur quibusdam? Quod, numquam?</div>
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+            Hello My Name is Muhammad Reza Arbani. <br />
+            I graduated from informatics engineering at Sriwijaya University.
+          </div>
+          <!-- <div class="col-md-4" data-aos="fade-left" data-aos-duration="2000">
+            I am 
+          </div> -->
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -100,49 +113,61 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/1.jpg" class="card-img-top" alt="Project1" />
+              <img src="images/portofolio/Home.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">First Portofolio</h5>
+                <p class="card-text">Final Project Web Programming Hacktiv8 kode.id</p>
+                <a href="https://rezaa.netlify.app/" class="btn btn-primary">Go to Portofolio</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/2.jpg" class="card-img-top" alt="Project2" />
+              <img src="images/portofolio/2.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Second Portofolio</h5>
+                <p class="card-text">Will updated soon.</p>
+                <a href="#" class="btn btn-primary link disabled">Coming Soon</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/3.jpg" class="card-img-top" alt="Project3" />
+              <img src="images/portofolio/3.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1200" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Third Portofolio</h5>
+                <p class="card-text">Will updated soon.</p>
+                <a href="#" class="btn btn-primary link disabled">Coming Soon</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/4.jpg" class="card-img-top" alt="Project4" />
+              <img src="images/portofolio/4.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1400" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Fourth Portofolio</h5>
+                <p class="card-text">Will updated soon.</p>
+                <a href="#" class="btn btn-primary link disabled">Coming Soon</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/5.jpg" class="card-img-top" alt="Project5" />
+              <img src="images/portofolio/5.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1600" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">fifth Portofolio</h5>
+                <p class="card-text">Will updated soon.</p>
+                <a href="#" class="btn btn-primary link disabled">Coming Soon</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/6.jpg" class="card-img-top" alt="Project6" />
+              <img src="images/portofolio/6.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1800" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Sixth Portofolio</h5>
+                <p class="card-text">Will updated soon.</p>
+                <a href="#" class="btn btn-primary link disabled">Coming Soon</a>
               </div>
             </div>
           </div>
@@ -173,49 +198,64 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/1.jpg" class="card-img-top" alt="Project1" />
+              <img src="images/blog/Cristiano_Ronaldo_Man_Utd_2021-22.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Bak Petir Di Siang Bolong, Cristiano Ronaldo Ke Manchester United: Lepasin Gue, Dong!</h5>
+                <p class="card-text">Ronaldo telah memberi tahu kepada pihak Setan Merah mengenai niatnya untuk meninggalkan klub pada musim panas ini.</p>
+                <a href="https://www.goal.com/id/berita/bak-petir-di-siang-bolong-cristiano-ronaldo-ke-manchester-united-lepasin-gue-dong/blteff446851d4a6b1e" class="btn btn-primary">More Details..</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/2.jpg" class="card-img-top" alt="Project2" />
+              <img src="images/blog/ronaldo_2.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Tidak Mau Kalah Dengan AS Roma, Napoli Siap Angkut Cristiano Ronaldo Dari Manchester United</h5>
+                <p class="card-text">
+                  Napoli ikut tertarik mendatangkan Ronaldo pada musim panas ini.<br />
+                  As Roma tidak mau kalah.
+                </p>
+                <a href="https://www.goal.com/id/berita/tidak-mau-kalah-roma-napoli-siap-angkut-cristiano-ronaldo-manchester-united/blt98a94334921f0e50" class="btn btn-primary">More Details..</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/3.jpg" class="card-img-top" alt="Project3" />
+              <img src="images/blog/CR7_3.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Cristiano Ronaldo, Lionel Messi & Striker Top Yang Pernah Dihadapi Jordi Amat Di Eropa</h5>
+                <p class="card-text">Pengalaman Jordi menghadapi striker kelas dunia di Eropa seperti Ronaldo dan Messi diharapkan mampu ditularkannya kepada para pemain muda Indonesia..</p>
+                <a href="https://www.goal.com/id/daftar/jordi-amat-ronaldo-messi-striker-top/bltcc80189e5514fe87" class="btn btn-primary">More Details..</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/4.jpg" class="card-img-top" alt="Project4" />
+              <img src="images/blog/CR7_4.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Cristiano Ronaldo Tuju Pintu Keluar Man United, Bruno Fernandes Angkat Suara</h5>
+                <p class="card-text">Ronaldo & Bruno jadi salah dua pemain yang belum terlihat di Carrington dalam sesi latihan pramusim Ten Hag yang dimulai sejak awal pekan ini.</p>
+                <a href="https://www.goal.com/id/berita/cristiano-ronaldo-manchester-united-bruno-fernandes-premier/blt532f5250b4555f54" class="btn btn-primary">More Details..</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/5.jpg" class="card-img-top" alt="Project5" />
+              <img src="images/blog/CR7_5.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Cristion Ronaldo</h5>
+                <p class="card-text">The Red Devils menegaskan bahwa striker 37 tahun itu tak dijual dan akan masuk rancangan Erik ten Hag. Manchester United dilaporkan berang mendengar kabar agen Cristiano Ronaldo..</p>
+                <a href="https://www.goal.com/id/berita/cristiano-ronaldo-chelsea-manchester-united/blt20225bb0346dc262" class="btn btn-primary">More Details..</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="images/portofolio/6.jpg" class="card-img-top" alt="Project6" />
+              <img src="images/blog/CR7_6.jpg" class="card-img-top" alt="Project1" data-aos="flip-left" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Cristiano Ronaldo Pengganti Robert Lewandowski? Bayern Munich Buka Suara</h5>
+                <p class="card-text">Kabar CR7 hengkang ke Bayern menyeruak setelah sang megabintang dilaporkan kecewa dengan aktivitas transfer Man United yang lesu..</p>
+                <a href="https://www.goal.com/id/berita/cristiano-ronaldo-robert-lewandowski-bayern-munich/blt3a2a229ba6398a71" class="btn btn-primary">More Details..</a>
               </div>
             </div>
           </div>
@@ -245,37 +285,37 @@
         </div>
         <div class="row">
           <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="images/portofolio/1.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project1" />
+            <div class="card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+              <img src="images/team/pikachu.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project1" />
               <div class="card-body">
-                <div class="des">Sara</div>
+                <div class="des">Rin</div>
                 <p class="card-text">Manager</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="images/portofolio/2.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project2" />
+            <div class="card" data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1100">
+              <img src="images/team/anya.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project2" />
               <div class="card-body">
-                <div class="des">Ejak</div>
+                <div class="des">Reza</div>
                 <p class="card-text">Engineer</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="images/portofolio/3.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project3" />
+            <div class="card" data-aos="fade-down" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+              <img src="images/team/Shousuke.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project3" />
               <div class="card-body">
-                <div class="des">Jake</div>
+                <div class="des">Nai</div>
                 <p class="card-text">Front End Developer</p>
               </div>
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="images/portofolio/4.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project4" />
+            <div class="card" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1300">
+              <img src="images/team/snorlax.jpg" class="card-img-top rounded-circle img-thumbnail" alt="Project4" />
               <div class="card-body">
-                <div class="des">Dita</div>
+                <div class="des">Mil</div>
                 <p class="card-text">Back End Developer</p>
               </div>
             </div>
@@ -300,26 +340,26 @@
     <section id="contact">
       <div class="container">
         <div class="row text-center">
-          <div class="col">
+          <div class="col text-light">
             <h2>Contact Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center mb-3">
+        <div class="row justify-content-center mb-3" data-aos="zoom-out-left" data-aos-duration="1000">
           <div class="col-md-6">
             <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
               <strong>Terima Kasih!</strong> Pesan Anda Sudah Kami Terima.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <form name="contact-form">
-              <div class="mb-3">
+              <div class="mb-3 text-light">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
-              <div class="mb-3">
+              <div class="mb-3 text-light">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
-              <div class="mb-3">
+              <div class="mb-3 text-light">
                 <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
@@ -353,7 +393,29 @@
       <p>Created with <i class="bi bi-suit-heart text-danger"></i> by Ejak</p>
     </footer>
     <!-- End of Footer -->
+
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Student | Web Developer' });
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', { duration: 2, x: -50, opacity: 0, delay: 0.5, ease: 'circ.out' });
+    </script>
+    <!-- End of GSAP -->
+
+    <!-- MyJS -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzbDYyL68BKWGEhfkk6GFFcT5gKmm-380jke2dJdvQZqc-RWRwnU_77SSJds9L54HKmCA/exec';
       const form = document.forms['contact-form'];

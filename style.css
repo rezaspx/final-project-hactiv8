@@ -1,7 +1,11 @@
+body {
+  /* background-image: url(images/Background/Background.jpg); */
+}
 /* CSS UNIT WPU, Reference */
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 13rem;
   background-color: #e2edff;
+  background-image: url(images/Background/Background8.jpg);
   /* 0099FF */
 }
 
@@ -19,6 +23,10 @@
 
 section {
   padding-top: 5rem;
+}
+
+#contact {
+  background-image: url(images/Background/Background2.jpg);
 }
 /* #contact {
     background-color: #e2edff;
